@@ -1,16 +1,4 @@
-LSTM Numerical Example 
-
-This project demonstrates a numerical example of an LSTM network
-used to predict the next value in a sequence.
-
-Input sequence:
-1, 2, 3
-
-The LSTM computes the following components at each time step:
-
-- Forget Gate
-- Input Gate
-- Candiimport numpy as np
+import numpy as np
 
 
 def sigmoid(x):
@@ -72,7 +60,4 @@ b = 0.2
 y_hat = Wy * h + b
 
 print("\nFinal Prediction:", y_hat)
-date Cell State
-- Cell State Update
-- Output Gate
-- Hidden State
+
