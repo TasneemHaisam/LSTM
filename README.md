@@ -60,4 +60,3 @@ b = 0.2
 y_hat = Wy * h + b
 
 print("\nFinal Prediction:", y_hat)
-
