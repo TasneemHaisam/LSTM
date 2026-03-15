@@ -51,9 +51,6 @@ for t, x in enumerate(X):
     print("Hidden State:", h)
 
     print("                           ")
- 
-
-
 Wy = 4
 b = 0.2
 
